@@ -995,3 +995,63 @@ body {
     -moz-hyphens: auto;
     -ms-hyphens: auto;
     -webkit-hyphens: auto; }
+/*Video_Img*/
+.video-section{
+  position: relative;
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+#upper-img{
+    margin-top:-10rem; 
+}
+#lower-img{
+    margin-top:20rem;
+}
+
+.image {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+.img-float{
+    display: flex;
+}
+.img-divison{
+    position: absolute;
+    top: 20rem;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 200px;
+  width: 200px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+  margin: auto;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
