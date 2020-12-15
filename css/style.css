@@ -1007,7 +1007,7 @@ body {
     margin-top:-16rem; 
 }
 #lower-img{
-    margin-top:28rem;
+    margin-top:33rem;
 }
 
 .image {
@@ -1023,8 +1023,8 @@ body {
     position: absolute;
     top: 20rem;
     bottom: 0;
-    right: 0;
-    left: 0;
+    right: -21rem;
+    left: -21rem;
 }
 .overlay {
   position: absolute;
