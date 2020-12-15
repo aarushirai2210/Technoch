@@ -1,0 +1,134 @@
+.footer{
+    background-color: $color-grey-dark-1;
+    padding: 10rem 0;
+    font-size: 1.4rem;
+    
+    &__logo-box{
+       text-align: centre;
+        margin-bottom: 8rem;
+    }
+    
+    &__logo{
+       width: 15rem;
+       height: auto;
+       margin-left: 44%;
+    }
+    
+    &__navigation{
+        border-top: 1.5px solid $color-new;
+        padding-top: 2rem;
+        display: inline-block;
+    }
+    
+    &__list{
+       list-style: none; 
+    }
+    
+    &__item{
+       display: inline-block;
+        &:not(:last-child){
+            margin-right: 1.5rem;
+        }
+    }
+    
+    &__link{
+        &:link,
+        &:visited{
+            color: $color-grey-light-1;
+            background-color: $color-grey-dark-1;
+            text-decoration: none;
+            text-transform: uppercase;
+            display: inline-block;
+            transition: all .3s;
+        }
+        
+        &:active,
+        &:hover{
+            color: $color-new;
+            box-shadow: 0 1rem 2rem rgba($color-black, .4);
+            transform: translateY(-15px)scale(1.3);
+        }
+    }
+    
+    &__copyright{
+        border-top: 1.5px solid $color-new;
+        padding-top: 2rem;
+        display: inline-block;
+    }
+}
+
+.l1{
+            border-top: 2px solid $color-new;
+                border-right: 2px solid $color-new;
+    padding: 0;
+
+
+}
+
+.footer1{
+    background-color: $color-grey-dark-1;
+    padding: 10rem 0;
+    margin-top: -10rem;
+    font-size: 1.4rem;
+    
+    &__logo-box{
+       text-align: centre;
+        margin-bottom: 8rem;
+    }
+    
+    &__logo{
+       width: 15rem;
+       height: auto;
+       margin-left: 44%;
+    }
+    
+    &__navigation{
+        border-top: 1.5px solid $color-new;
+        padding-top: 2rem;
+        display: inline-block;
+    }
+    
+    &__list{
+       list-style: none; 
+    }
+    
+    &__item{
+       display: inline-block;
+        &:not(:last-child){
+            margin-right: 1.5rem;
+        }
+    }
+    
+    &__link{
+        &:link,
+        &:visited{
+            color: $color-grey-light-1;
+            background-color: $color-grey-dark-1;
+            text-decoration: none;
+            text-transform: uppercase;
+            display: inline-block;
+            transition: all .3s;
+        }
+        
+        &:active,
+        &:hover{
+            color: $color-new;
+            box-shadow: 0 1rem 2rem rgba($color-black, .4);
+            transform: translateY(-15px)scale(1.3);
+        }
+    }
+    
+    &__copyright{
+        border-top: 1.5px solid $color-new;
+        padding-top: 2rem;
+        display: inline-block;
+    }
+}
+
+.l1{
+            border-top: 2px solid $color-new;
+                border-right: 2px solid $color-new;
+    padding: 0;
+
+
+}

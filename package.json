@@ -1,0 +1,17 @@
+{
+  "name": "technoch",
+  "version": "1.0.0",
+  "description": "landing page for technoch",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Aarushi",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
+}

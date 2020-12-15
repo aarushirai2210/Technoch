@@ -1,0 +1,222 @@
+.btn:link,
+.btn:visited
+{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 60px;
+    transition: all .2s;
+    position: relative;
+    
+    
+}
+
+.btn:hover
+{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 10px rgba($color-black, .3);
+}
+
+.btn:active
+{
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba($color-black, .3);
+}
+
+.white
+{
+    background-color: rgba(218, 242, 86, 0.72);
+    color: $color-grey-dark;
+    margin: 27% 45% auto;
+    
+}
+
+.btn::after
+{
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+    
+}
+
+.white::after
+{
+    background-color: rgba(218, 242, 86, 0.72);
+}
+
+.btn:hover::after
+{
+    transform: scale(1.5);
+    opacity: 0;
+}
+
+.animated-butn
+{
+    animation: bottomin .5s ease-out .75s;
+    animation-fill-mode: backwards;
+}
+
+.btn-text{
+    &:link,
+    &:visited{
+        font-size: 1.6rem;
+        color: $color-primary-dark;
+        display: inline-block;
+        text-decoration: none;
+        border-bottom: 1px solid $color-primary;
+        padding: 3px;
+        transition: all .2s;
+    }
+    
+    &:hover{
+        color: white;
+        background-color: $color-primary;
+        transform: translateY(-3px);
+        box-shadow: 0 1rem 2rem rgba($color-black, .15);
+        
+    }
+    
+    &:active{
+         transform: translateY(-3px);
+        box-shadow: 0 .5rem 1rem rgba($color-black, .15);
+    }
+}
+.white1{
+    background-color: rgba(255, 255, 255, 0.63);
+    color: $color-grey-dark;
+    
+     &::after{
+         background-color: rgba(255, 255, 255, 0.63);
+    }
+}
+
+.green1{
+   background-color: $color-primary-dark;
+    color: white;
+    margin-left: 42%;
+    margin-top: 5%;
+     &::after{
+         background-color: $color-primary-dark;
+         
+}
+}
+
+.green2{
+   background-color: $color-primary;
+    color: white;
+    margin-left: 0;
+    margin-top: 1%;
+    font-weight: 200;
+     &::after{
+         background-color: $color-primary;
+         
+}
+}
+.btn1,
+.btn1:link,
+.btn1:visited
+{
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-decoration: none;
+    padding: 10px 40px;
+    display: inline-block;
+    border-radius: 60px;
+    transition: all .2s;
+    position: relative;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.btn1:hover
+{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 10px rgba($color-black, .3);
+}
+
+.btn1:active,
+.btn1:focus
+{
+    outline: none;
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba($color-black, .3);
+}
+.btn1::after
+{
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+    
+}
+.btn1:hover::after
+{
+    transform: scale(1.5);
+    opacity: 0;
+}
+.mailbt{
+    
+    &:active,
+    &:link,
+    &:visited{
+        text-decoration: none;
+        color: white;
+        font-weight: 200;
+    }
+}
+
+.course{
+    margin-left: 3rem;
+}
+
+.course1{
+    margin-left: 21.8rem;
+    margin-top: 4rem;
+}
+
+.btn-text1{
+    &:link,
+    &:visited{
+        font-size: 1.6rem;
+        color: $color-primary-dark;
+        display: inline-block;
+        text-decoration: none;
+        border-bottom: 1px solid $color-primary;
+        padding: 3px;
+        transition: all .2s;
+    }
+    
+    &:hover{
+        color: white;
+        background-color: $color-primary;
+        transform: translateY(-3px);
+        box-shadow: 0 1rem 2rem rgba($color-black, .15);
+        
+    }
+    
+    &:active{
+         transform: translateY(-3px);
+        box-shadow: 0 .5rem 1rem rgba($color-black, .15);
+    }
+}
+
+
+
