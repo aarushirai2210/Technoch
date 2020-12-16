@@ -1003,11 +1003,16 @@ body {
   position: relative;
   width: 50%;
 }
+
 #upper-img{
-    margin-top:-16rem; 
+    margin-top:-16rem;
+
 }
 #lower-img{
     margin-top:33rem;
+}
+#right-img{
+    padding-left: 40rem;
 }
 
 .image {
@@ -1015,6 +1020,7 @@ body {
   width: 200px;
   height: 200px;
   margin: auto;
+  border-radius: 5rem;
 }
 .img-float{
     display: flex;
@@ -1023,7 +1029,7 @@ body {
     position: absolute;
     top: 20rem;
     bottom: 0;
-    right: -21rem;
+    right: 0rem;
     left: -21rem;
 }
 .overlay {
@@ -1038,6 +1044,16 @@ body {
   transition: .5s ease;
   background-color: white;
   margin: auto;
+  border-radius: 5rem;
+
+}
+
+#upper-right{
+    left: 40rem;
+}
+
+#lower-right{
+    left: 40rem;
 }
 
 .container:hover .overlay {
@@ -1045,8 +1061,10 @@ body {
 }
 
 .text {
-  color: black;
+  color: #ce973e;
+  text-decoration: none;
   font-size: 20px;
+  font-weight: 700;
   position: absolute;
   top: 50%;
   left: 50%;
