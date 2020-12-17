@@ -1003,7 +1003,10 @@ body {
     -moz-hyphens: auto;
     -ms-hyphens: auto;
     -webkit-hyphens: auto; }
-/*Video_Img*/
+.composition-display-2{
+      display: none;
+    }
+    /*Video_Img*/
 .video-section{
   position: relative;
 }
@@ -1488,22 +1491,20 @@ body {
 .row .col-1-2-of-2 {
     width: calc((100% - 1rem) / 1); 
   }
-.composition__photo1--p4 {
-      left: 3rem;
-      top: 2rem; 
-    }
-.composition__photo1--p5 {
-      right: 5rem;
-      top: -5rem; }
-.composition__photo1--p6 {
-      left: 9rem;
-      top: 12rem; 
-      bottom: 12rem;
-    }
 .composition-display-1{
   display: none;
 }
 .composition-display-2{
   display: block;
 }
+.composition-display-2-img{
+  width: 200px;
+  display: block;
+  margin: auto;
+  margin-bottom: 5rem;
+}
+.footer1__logo {
+    width: 10rem;
+    height: auto;
+    margin-left: 36%; }
 }
