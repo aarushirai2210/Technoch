@@ -8,13 +8,12 @@
         position: absolute;
         top: 0;
         right: 10rem;
-        bottom: 0;
+        bottom: 5rem;
         left: 0;
     }
 </style>
 </head>
 <body>
-
 <div id="editor">//Enter your code here for cpp or c
 </div>
     
@@ -23,6 +22,14 @@
     var editor = ace.edit("editor");
     editor.setTheme("ace/theme/twilight");
     editor.session.setMode("ace/mode/c_cpp");
+    editor.getSession().setAnnotations([{
+  row: 1,
+  column: 0,
+  text: "Error Message", // Or the Json reply from the parser 
+  type: "error" // also "warning" and "information"
+}]);
+
+
 </script>
  
 </body>
